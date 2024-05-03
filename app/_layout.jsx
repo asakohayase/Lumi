@@ -27,7 +27,7 @@ const RootLayout = () => {
   if (!fontsLoaded && !error) {
     return null;
   }
-  return  <Stack name="index" options={{headerShown:false}}></Stack>
+  return  <Stack><Stack.Screen name="index" options={{ headerShown: false }} /></Stack>
 }
 
 export default RootLayout
