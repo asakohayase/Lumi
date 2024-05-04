@@ -1,10 +1,10 @@
-import { Image, ScrollView, StatusBar, Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
 
 import {images} from "../constants";
 import CustomButton from "../components/CustomButton";
-import ExpoStatusBar from "expo-status-bar/build/ExpoStatusBar";
+import { StatusBar } from 'expo-status-bar'
 
 export default function App() {
   return (
@@ -26,7 +26,7 @@ export default function App() {
           <CustomButton title="Continue with Email" handlePress={()=>router.push('/sign-in')} containerStyles="w-full mt-7"/>
         </View>
      </ScrollView>
-     <ExpoStatusBar backgroundColor="#161622" style="light" />
+     <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
   );
 }
