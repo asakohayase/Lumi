@@ -47,6 +47,11 @@ export default function App() {
             handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-7"
           />
+          <CustomButton
+            title="Home"
+            handlePress={() => router.push("/home")}
+            containerStyles="w-full mt-7"
+          />
         </View>
       </ScrollView>
       <StatusBar backgroundColor="#161622" style="light" />
