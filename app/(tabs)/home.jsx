@@ -6,30 +6,16 @@ import SearchInput from "../../components/SearchInput";
 import Trending from "../../components/Trending";
 import EmptyState from "../../components/EmptyState";
 import { getAllPosts } from "../../lib/appwrite";
+import useAppwrite from "../../lib/useAppwrite";
 
 const home = () => {
+  const { data: posts } = useAppwrite(getAllPosts);
   const [refreshing, setRefreshing] = useState(false);
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(false);
 
   const onRefresh = () => {
     setRefreshing(true);
     setRefreshing(false);
   };
-  useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      try {
-        const response = await getAllPosts();
-        setData(response);
-      } catch (error) {
-        Alert.alert("Error", error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchData();
-  }, []);
 
   return (
     <SafeAreaView className="bg-primary space-y-6 h-full">
