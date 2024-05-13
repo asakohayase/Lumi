@@ -7,6 +7,7 @@ import Trending from "../../components/Trending";
 import EmptyState from "../../components/EmptyState";
 import { getAllPosts } from "../../lib/appwrite";
 import useAppwrite from "../../lib/useAppwrite";
+import VideoCard from "../../components/VideoCard";
 
 const home = () => {
   const { data: posts, refetch } = useAppwrite(getAllPosts);
@@ -23,12 +24,7 @@ const home = () => {
       <FlatList
         data={posts}
         keyExtractor={(item) => item.$id}
-        renderItem={({ item }) => (
-          <>
-            <Text className="text-3xl text-white">{item.title}</Text>
-            <Text className="text-3xl text-white">{item.username}</Text>
-          </>
-        )}
+        renderItem={({ item }) => <VideoCard video={item} />}
         ListHeaderComponent={() => (
           <View className="my-6 px-4">
             <View className="justify-between items-start flex-row">
