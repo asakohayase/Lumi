@@ -9,22 +9,23 @@ import { getAllPosts } from "../../lib/appwrite";
 import useAppwrite from "../../lib/useAppwrite";
 
 const home = () => {
-  const { data: posts } = useAppwrite(getAllPosts);
+  const { data: posts, refetch } = useAppwrite(getAllPosts);
   const [refreshing, setRefreshing] = useState(false);
 
-  const onRefresh = () => {
+  const onRefresh = async () => {
     setRefreshing(true);
+    await refetch;
     setRefreshing(false);
   };
 
   return (
     <SafeAreaView className="bg-primary space-y-6 h-full">
       <FlatList
-        data={[]}
-        keyExtractor={(item) => item.id}
+        data={posts}
+        keyExtractor={(item) => item.$id}
         renderItem={({ item }) => (
           <>
-            <Text className="text-3xl text-white">{item.id}</Text>
+            <Text className="text-3xl text-white">{item.title}</Text>
             <Text className="text-3xl text-white">{item.username}</Text>
           </>
         )}
