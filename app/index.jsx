@@ -6,11 +6,11 @@ import "react-native-url-polyfill/auto";
 import { images } from "../constants";
 import CustomButton from "../components/CustomButton";
 import { StatusBar } from "expo-status-bar";
-// import { useGlobalContext } from "./context/GlobalProvider";
+import { useGlobalContext } from "../context/GlobalProvider";
 
 export default function App() {
-  // const { isLoading, isLoggedIn } = useGlobalContext();
-  // if (!isLoading && isLoggedIn) return <Redirect href="/home" />;
+  const { isLoading, isLoggedIn } = useGlobalContext();
+  if (!isLoading && isLoggedIn) return <Redirect href="/home" />;
 
   return (
     <SafeAreaView className="h-full bg-primary">
