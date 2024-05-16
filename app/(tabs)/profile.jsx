@@ -1,23 +1,27 @@
 import { FlatList, Image, Text, TouchableOpacity, View } from "react-native";
-import React, { useEffect } from "react";
+import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import EmptyState from "../../components/EmptyState";
-import { getPostsByUser } from "../../lib/appwrite";
+import { getPostsByUser, signOut } from "../../lib/appwrite";
 import useAppwrite from "../../lib/useAppwrite";
 import VideoCard from "../../components/VideoCard";
-import { useGlobalContext } from "../../context/GlobalProvider";
 import { icons } from "../../constants";
 import InfoBox from "../../components/InfoBox";
+import { router } from "expo-router";
+import { useGlobalContext } from "../../context/GlobalProvider";
 
 const profile = () => {
   const { user, setUser, setIsLoggedIn } = useGlobalContext();
-  const { data: posts } = useAppwrite(() =>
-    // replace the userId with user.$id once auth is fixed
-    getPostsByUser("663e5798002cbeac4d2a")
-  );
+  const { data: posts } = useAppwrite(() => getPostsByUser(user.$id));
 
-  const logout = () => {};
+  const logout = async () => {
+    await signOut();
+    setUser(null);
+    setIsLoggedIn(false);
+
+    router.replace("/sign-in");
+  };
 
   return (
     <SafeAreaView className="bg-primary h-full">
@@ -39,9 +43,8 @@ const profile = () => {
             </TouchableOpacity>
             <View className="w-16 h-16 border border-secondary rounded-lg justify-center items-center">
               <Image
-                // replace the link with {{url:user?.avatar}} once auth is fixed
                 source={{
-                  uri: "https://cloud.appwrite.io/v1/avatars/initials?name=Abc&project=663679020022a2041b28",
+                  uri: user?.avatar,
                 }}
                 className="w-[90%] h-[90%] rounded-lg"
                 resizeMode="cover"
