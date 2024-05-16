@@ -50,7 +50,11 @@ const profile = () => {
                 resizeMode="cover"
               />
             </View>
-            <InfoBox title="aaa" containerStyles="mt-5" textStyles="text-lg" />
+            <InfoBox
+              title={user?.username}
+              containerStyles="mt-5"
+              textStyles="text-lg"
+            />
             <View className="mt-5 flex-row">
               <InfoBox
                 title={posts.length || 0}
