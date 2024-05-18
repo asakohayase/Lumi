@@ -51,7 +51,7 @@
 
 **・Profile** : Track your video creation history
 
-![WhatsApp Image 2024-05-16 at 00 12 09](https://github.com/asakohayase/react_native_crash_course/assets/76857882/8898443a-5585-4928-8660-
+![WhatsApp Image 2024-05-17 at 22 02 36](https://github.com/asakohayase/react_native_crash_course/assets/76857882/d52ae3aa-1259-4979-ac07-fbedecf76054)
 <br />
 <br />
 
