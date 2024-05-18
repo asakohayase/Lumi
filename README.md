@@ -87,8 +87,6 @@ Stars ⭐ from you will brighten our day! Thanks for checking out our project.
 
 Asako Hayase- [LinkedIn](https://www.linkedin.com/in/asako-hayase-924508ba/)
 
-Project Link: [https://hipnode-xk0v.onrender.com/](https://hipnode-xk0v.onrender.com/)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
