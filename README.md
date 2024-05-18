@@ -27,7 +27,7 @@
 ## Features
 **・User Authentication** : Secure user authentication to ensure the privacy and security of users.
 
-<img>![WhatsApp Image 2024-05-17 at 22 02 30](https://github.com/asakohayase/react_native_crash_course/assets/76857882/951ecf22-c34f-4118-a87d-bb2eb5b85081)</img>
+<img width="700">![WhatsApp Image 2024-05-17 at 22 02 30](https://github.com/asakohayase/react_native_crash_course/assets/76857882/951ecf22-c34f-4118-a87d-bb2eb5b85081)</img>
 <br />
 <br />
 
@@ -51,7 +51,7 @@
 
 **・Profile** : Track your video creation history
 
-<img>![WhatsApp Image 2024-05-17 at 22 02 30](https://github.com/asakohayase/react_native_crash_course/assets/76857882/135f9872-7b7a-49b3-b96c-c7b4c6f93a6a)</img>
+<img>![WhatsApp Image 2024-05-17 at 22 02 30](https://github.com/asakohayase/react_native_crash_course/assets/76857882/135f9872-7b7a-49b3-b96c-c7b4c6f93a6)</img>
 <br />
 <br />
 
