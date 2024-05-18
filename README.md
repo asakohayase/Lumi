@@ -45,13 +45,13 @@
 
 **・Create** : Share your AI-generated video creations with the world. 
 
-<img>![WhatsApp Image 2024-05-17 at 22 02 36](https://github.com/asakohayase/react_native_crash_course/assets/76857882/d52ae3aa-1259-4979-ac07-fbedecf76054)</img>
+![WhatsApp Image 2024-05-17 at 22 55 55](https://github.com/asakohayase/react_native_crash_course/assets/76857882/ee289729-9474-4b8e-8fa4-4deb8afe7938)
 <br />
 <br />
 
 **・Profile** : Track your video creation history
 
-![WhatsApp Image 2024-05-17 at 22 02 30](https://github.com/asakohayase/react_native_crash_course/assets/76857882/135f9872-7b7a-49b3-b96c-c7b4c6f93a6a)
+![WhatsApp Image 2024-05-16 at 00 12 09](https://github.com/asakohayase/react_native_crash_course/assets/76857882/8898443a-5585-4928-8660-
 <br />
 <br />
 
