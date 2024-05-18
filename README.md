@@ -45,7 +45,7 @@
 
 **・Create** : Share your AI-generated video creations with the world. 
 
-![WhatsApp Image 2024-05-17 at 22 55 55](https://github.com/asakohayase/react_native_crash_course/assets/76857882/ee289729-9474-4b8e-8fa4-4deb8afe7938)
+![WhatsApp Image 2024-05-17 at 22 54 51](https://github.com/asakohayase/react_native_crash_course/assets/76857882/c5c1116e-7ee0-445e-ae12-f116658a4c16)
 <br />
 <br />
 
