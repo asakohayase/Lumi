@@ -39,7 +39,7 @@
 
 **・Bookmark** : Never lose track of your favorite videos. Easily bookmark captivating content for later viewing, creating a personalized library of your most cherished AI-generated masterpieces.
 
-<!-- ADD SCREENSHOT LATER -->
+!UNDER CONSTRUCTION!
 <br />
 <br />
 
