@@ -53,7 +53,7 @@ const SignIn = () => {
             className="w-[115px] h-[35px]"
           />
           <Text className="text-2xl text-white text-semibold mt-10 font-psemibold">
-            Log in to Aora
+            Log in to Lumi
           </Text>
 
           <FormField
@@ -85,7 +85,7 @@ const SignIn = () => {
             </Text>
             <Link
               href="sign-up"
-              className="text-lg font-psemibold text-secondary"
+              className="text-lg font-psemibold text-[#2e5896]"
             >
               Sign Up
             </Link>

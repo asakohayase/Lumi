@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Aora",
-    "slug": "aora",
-    "scheme": "aora",
+    "name": "Lumi",
+    "slug": "lumi",
+    "scheme": "lumi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "package": "com.jsm.aora"
+      "package": "com.jsm.lumi"
     },
     "android": {
       "adaptiveIcon": {
