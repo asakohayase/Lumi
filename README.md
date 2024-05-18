@@ -4,7 +4,7 @@
 <div align="left">
   <p>
    Here, users can upload and explore an endless variety of unique, AI-dreamed videos on any topic imaginable.
-   Disclaimer: This app is built based on this tutorial by Adrian [Github Profile](https://github.com/adrianhajdin) : https://www.youtube.com/watch?v=ZBCUegTZF7M
+   Disclaimer: This app is built based on this tutorial by Adrian(https://github.com/adrianhajdin) : https://www.youtube.com/watch?v=ZBCUegTZF7M
   </p>
 </div>
 
